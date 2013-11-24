@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/CSS/Index.css")" rel="stylesheet" />
+</head>
+<body>
+    <h1>Tran, Eric Homework 7</h1>
+    <hr />
+    <nav>
+        <a class="links">@Html.ActionLink("Home", "Index")</a>
+        <a class="links">@Html.ActionLink("Web Form Demo", "WebForm")</a>
+        <a class="links">@Html.ActionLink("About Me", "AboutMe")</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

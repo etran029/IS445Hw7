@@ -1,0 +1,83 @@
+﻿body { 
+	background:#fff;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#hr1 {
+    height: 8px;
+    color: #00FF00;
+    background-color: #00FF00;
+    border-style: solid;
+}
+
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+h3 {
+    color: purple;
+}
+
+h4 {
+    text-align: center;
+    color: purple;
+}
+
+nav {
+    margin: 2em;
+}
+
+a:link {
+    color: grey;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#nav a:hover { 
+    text-decoration:underline; 
+    color:#707F7F; 
+}
+
+#form {
+    border-style: outset;
+    border-color: green;
+    padding: 10px;
+}
+
+.alignleft {
+    text-align:left;
+}
+
+.mepicture {
+    float: right;
+    height:200px;
+    width: 200px;
+}
+
+footer {
+    border-top: double;
+    padding-top: 5px;
+}
+
+footer address {
+    display: inline-block;
+    margin:0px 20px 20px 0px;
+    width: 575px;
+}
+
+div.aboutmebody {
+    width: 380px;
+}
